@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Postgres partitiong without downtime"
-date:   2024-04-14 10:54:35 +0530
+date:   2024-04-13 10:54:35 +0530
 categories: jekyll update
 ---
 ## Introduction
@@ -222,3 +222,9 @@ Partitioning enables the implementation of data retention policies and efficient
 The lessons learned and best practices shared in this blog post can guide others in their partitioning endeavors. By carefully planning and executing the partitioning process, organizations can unlock the full potential of their PostgreSQL databases.
 
 As we continue to work with the partitioned transaction table, we look forward to the benefits of improved performance and simplified data management. I encourage readers to explore the possibilities of partitioning in their own PostgreSQL environments and experience its benefits on large-scale data management.
+
+## References
+1. PostgreSQL Documentation - Partitioning: [https://www.postgresql.org/docs/current/ddl-partitioning.html](https://www.postgresql.org/docs/current/ddl-partitioning.html)
+2. PostgreSQL - Check Constraints: [https://www.postgresqltutorial.com/check-constraint](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-CHECK-CONSTRAINTS)
+3. PostgreSQL - Not Valid Option: [https://www.postgresqltutorial.com/not-valid-option](https://www.postgresql.org/docs/current/sql-altertable.html#SQL-ALTERTABLE-DESC-ADD-TABLE-CONSTRAINT)
+4. PostgreSQL - Table Level Locks: [https://www.postgresqltutorial.com/table-level-locks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-TABLES)
