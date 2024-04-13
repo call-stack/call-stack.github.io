@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Postgres partitiong without downtime"
+title:  "Postgres Partitioning Without Downtime"
 date:   2024-04-13 10:54:35 +0530
 categories: jekyll update
 ---
